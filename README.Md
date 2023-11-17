@@ -72,15 +72,24 @@ End Sub
 
 #Code Sample 2: Updating Inventory: 
 
+
 ' Code for updating inventory when Submit button is clicked
+
+
 Private Sub Submit_Click()
+
     ' ... (Code for validating input, updating "Product Master," "Stock In-Out," and "Inventory" sheets)
+
     ' ... (Code for refreshing form fields)
+
     Call Refresh
+
     MsgBox "Updated!!!"
+
 End Sub
 
 ' Refresh function to clear form fields
+
 Sub Refresh()
     ' ... (Code for resetting form fields to default values)
 End Sub
