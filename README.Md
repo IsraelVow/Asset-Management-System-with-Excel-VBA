@@ -46,28 +46,52 @@ Here are snippets of key VBA code used in the project:
 #Code Sample 1: Search and Display Products: 
 
 ' frm_Search_Product Userform initialization event
+
+
 Private Sub UserForm_Initialize()
+
     Call Show_Product
+
 End Sub
 
 ' Code for searching and displaying products
+
+
 Sub Show_Product()
+
+
     ' ... (Code for populating ListBox1 based on search criteria)
+
 End Sub
 
 ' Code to be executed when "See More Details..." button is clicked
+
+
 Private Sub ListBox1_DblClick(ByVal Cancel As MSForms.ReturnBoolean)
+
     Call Search_Product
+
 End Sub
 
 ' Additional code for displaying details on ListBox1 item change
+
+
 Private Sub ListBox1_Change()
+
+
     ' ... (Code for displaying details of the selected item)
+
 End Sub
 
 ' Code to be executed when "See More Details..." button is clicked
+
+
 Private Sub Search_Product()
+
+
     ' ... (Code for copying data to "Report" sheet and hiding the userform)
+
+
 End Sub
 
 #Code Sample 2: Updating Inventory: 
@@ -100,6 +124,7 @@ End Sub
 
 
     ' ... (Code for resetting form fields to default values)
+
 End Sub
 
 
