@@ -43,7 +43,8 @@ To utilize the Asset Manager effectively, follow these steps:
 
 Here are snippets of key VBA code used in the project:
 
-- Code Sample 1: Search and Display Products: 
+#Code Sample 1: Search and Display Products: 
+
 ' frm_Search_Product Userform initialization event
 Private Sub UserForm_Initialize()
     Call Show_Product
@@ -69,11 +70,7 @@ Private Sub Search_Product()
     ' ... (Code for copying data to "Report" sheet and hiding the userform)
 End Sub
 
-
-Explanation of a critical code segment.
-
-
-- Code Sample 2: Updating Inventory: 
+#Code Sample 2: Updating Inventory: 
 
 ' Code for updating inventory when Submit button is clicked
 Private Sub Submit_Click()
@@ -88,35 +85,10 @@ Sub Refresh()
     ' ... (Code for resetting form fields to default values)
 End Sub
 
-- Code Sample 3: Refresh Macro
+#Code Sample 3: Refresh Macro
 
 ' Refresh function to clear form fields
-Sub Refresh()
-Dim lr As Long
-Dim x As Long
-Dim sh As Worksheet
 
-Set sh = ThisWorkbook.Sheets("Product Master")
-lr = Application.WorksheetFunction.CountA(sh.Range("A:A"))
-
-For x = 2 To lr
-
-	Me.txt_AssetCode.Value = "ASI00" & x
-
-Next
-
-Me.txt_AssetName.Value = ""
-Me.txt_AssetQty.Value = ""
-Me.Txt_CurrentValue.Value = ""
-Me.Txt_PurchasePrice.Value = ""
-Me.Txt_QtyDamaged.Value = ""
-Me.Txt_QtyUsable.Value = ""
-Me.Txt_QtyRepair.Value = ""
-Me.Txt_DateInUse.Value = ""
-Me.Txt_Notes.Value = ""
-Me.Cmb_AssetCategory.Value = ""
-Me.Cmb_StoredBy.Value = ""
-Me.Cmb_StoreLocation.Value = ""
 
     ' ... (Code for resetting form fields to default values)
 End Sub
