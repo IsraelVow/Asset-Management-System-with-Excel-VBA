@@ -31,12 +31,12 @@
   - Highlights the formula determining the state of each product based on the provided quantity.
 
 ### 6. Inventory Sheet Overview
-![Inventory Sheet Overview](https://imgur.com/fXeRMdM.png)
+![Inventory Sheet Overview](https://imgur.com/fXeRMdM)
 - **Description:**
   - Displays the Inventory sheet, providing a general overview of the value and quantity of each product.
 
 ### 7. Stock In and Out Sheet
-![Stock In and Out Sheet](https://imgur.com/aPzOK9L.png)
+![Stock In and Out Sheet](https://imgur.com/aPzOK9L)
 - **Description:**
   - Offers an insight into the Stock In and Out sheet, reflecting each deduction and addition.
 
