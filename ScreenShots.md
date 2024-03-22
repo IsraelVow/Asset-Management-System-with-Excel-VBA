@@ -4,6 +4,8 @@
 
 ![Asset Manager Overview](https://imgur.com/AoSthqt.gif)
 
+![Uploading Asset gif.gif…]()
+
 - **Description:**
   - Demonstrates the functionality of clicking on shapes to display all assets.
   - Highlights the three states (Usable, Damaged, Repairable) for each asset.
