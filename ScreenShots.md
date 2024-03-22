@@ -1,19 +1,13 @@
 **Screenshots.md Contents:**
 
 ### 1. Overview of Asset Manager Functionality
-
 ![Asset Manager Overview](https://imgur.com/AoSthqt.gif)
-
-![Uploading Asset gif.gif…]()
-
 - **Description:**
   - Demonstrates the functionality of clicking on shapes to display all assets.
   - Highlights the three states (Usable, Damaged, Repairable) for each asset.
   
 ### 2. Product Search and State Details
-
 ![Product Search and State Details](https://imgur.com/7tQwlON.png)
-
 - **Description:**
   - Illustrates the product search functionality, either from the listbox or by clicking on "...see more."
   - Provides a visual representation of the state of each asset when selected.
