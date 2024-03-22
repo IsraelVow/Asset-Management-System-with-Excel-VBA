@@ -13,7 +13,7 @@
   - Provides a visual representation of the state of each asset when selected.
 
 ### 3. Update Inventory
-![Update Inventory](https://imgur.com/k4cjM8r.png)
+![Update Inventory](https://i.postimg.cc/wBdNwb1c/k4cj-M8r-Imgur.png)
 - **Description:**
   - Displays the process of updating the inventory when a product is added or taken.
   - Captures the interaction with the user interface for inventory updates.
